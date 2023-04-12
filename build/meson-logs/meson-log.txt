@@ -1,0 +1,296 @@
+Build started at 2023-04-12T17:27:59.884227
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.61.2
+Source dir: /home/amy/synaTudor
+Build dir: /home/amy/synaTudor/build
+Build type: native build
+DEPRECATION: Option DBGWDF already exists.
+Project name: synaTudor
+Project version: 1.0.0
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/amy/synaTudor/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: ccache cc (gcc 11.3.0 "cc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0")
+C linker for the host machine: cc ld.bfd 2.38
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/amy/synaTudor/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 11.3.0 "cc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program bash found: YES (/usr/bin/bash)
+Program ld found: YES (/usr/bin/ld)
+Run-time dependency threads found: YES
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'libcrypto' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libcrypto` -> 0
+3.0.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libcrypto` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcrypto` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcrypto
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcrypto` -> 0
+-lcrypto
+Running compile:
+Working directory:  /home/amy/synaTudor/build/meson-private/tmpiqjrbf_g
+Command line:  ccache cc /home/amy/synaTudor/build/meson-private/tmpiqjrbf_g/testfile.c -o /home/amy/synaTudor/build/meson-private/tmpiqjrbf_g/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/amy/synaTudor/build/meson-private/tmpz556ahk1
+Command line:  ccache cc /home/amy/synaTudor/build/meson-private/tmpz556ahk1/testfile.c -o /home/amy/synaTudor/build/meson-private/tmpz556ahk1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency libcrypto found: YES 3.0.2
+Pkg-config binary for 1 is cached.
+Determining dependency 'libusb-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libusb-1.0` -> 0
+1.0.25
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libusb-1.0` -> 0
+-I/usr/include/libusb-1.0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusb-1.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lusb-1.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusb-1.0` -> 0
+-lusb-1.0
+Run-time dependency libusb-1.0 found: YES 1.0.25
+Dependency threads found: YES unknown (cached)
+Dependency libcrypto found: YES 3.0.2 (cached)
+Dependency libusb-1.0 found: YES 1.0.25 (cached)
+Dependency threads found: YES unknown (cached)
+Dependency libcrypto found: YES 3.0.2 (cached)
+Dependency libusb-1.0 found: YES 1.0.25 (cached)
+Pkg-config binary for 1 is cached.
+Determining dependency 'libcap' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libcap` -> 0
+2.44
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libcap` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcap` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcap
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcap` -> 0
+-lcap
+Run-time dependency libcap found: YES 2.44
+Pkg-config binary for 1 is cached.
+Determining dependency 'libseccomp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libseccomp` -> 0
+2.5.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libseccomp` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libseccomp` -> 0
+-L/usr/lib/x86_64-linux-gnu -lseccomp
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libseccomp` -> 0
+-lseccomp
+Run-time dependency libseccomp found: YES 2.5.3
+Pkg-config binary for 1 is cached.
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+2.72.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+-pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gio-2.0` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gio-2.0 found: YES 2.72.4
+Pkg-config binary for 1 is cached.
+Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gio-unix-2.0` -> 0
+2.72.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gio-unix-2.0` -> 0
+-pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gio-unix-2.0 found: YES 2.72.4
+Pkg-config binary for 1 is cached.
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 0
+1.12.20
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags dbus-1` -> 0
+-I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs dbus-1` -> 0
+-L/usr/lib/x86_64-linux-gnu -ldbus-1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs dbus-1` -> 0
+-ldbus-1
+Run-time dependency dbus-1 found: YES 1.12.20
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=datadir dbus-1` -> 0
+/usr/share
+Got pkgconfig variable datadir : /usr/share
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=system_bus_services_dir dbus-1` -> 0
+/usr/share/dbus-1/system-services
+Got pkgconfig variable system_bus_services_dir : /usr/share/dbus-1/system-services
+Configuring net.reactivated.TudorHostLauncher.service using configuration
+Pkg-config binary for 1 is cached.
+Determining dependency 'libfprint-2-tod-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libfprint-2-tod-1` -> 0
+1.94.3+tod1+tod1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libfprint-2-tod-1` -> 0
+-pthread -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libfprint-2-tod-1` -> 0
+-L/usr/lib/x86_64-linux-gnu -lfprint-2-tod
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libfprint-2-tod-1` -> 0
+-lfprint-2-tod
+Run-time dependency libfprint-2-tod-1 found: YES 1.94.3+tod1+tod1
+Pkg-config binary for 1 is cached.
+Determining dependency 'udev' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion udev` -> 0
+249
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags udev` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs udev` -> 0
+
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs udev` -> 0
+
+Run-time dependency udev found: YES 249
+Dependency libusb-1.0 found: YES 1.0.25 (cached)
+Pkg-config binary for 1 is cached.
+Determining dependency 'gusb' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gusb` -> 0
+0.3.10
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gusb` -> 0
+-pthread -I/usr/include/gusb-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libusb-1.0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gusb` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgusb -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lusb-1.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gusb` -> 0
+-lgusb -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lusb-1.0
+Run-time dependency gusb found: YES 0.3.10
+Pkg-config binary for 1 is cached.
+Determining dependency 'json-glib-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion json-glib-1.0` -> 0
+1.6.6
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags json-glib-1.0` -> 0
+-pthread -I/usr/include/json-glib-1.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs json-glib-1.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -ljson-glib-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs json-glib-1.0` -> 0
+-ljson-glib-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency json-glib-1.0 found: YES 1.6.6
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=tod_driversdir libfprint-2-tod-1` -> 0
+/usr/lib/x86_64-linux-gnu/libfprint-2/tod-1
+Got pkgconfig variable tod_driversdir : /usr/lib/x86_64-linux-gnu/libfprint-2/tod-1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=udevdir udev` -> 0
+/lib/udev
+Got pkgconfig variable udevdir : /lib/udev
+Build targets in project: 6
+
+Found ninja-1.10.1 at /usr/bin/ninja
+WARNING: custom_target 'driver-download' has more than one output! Using the first one.
+WARNING: custom_target 'driver-download' has more than one output! Using the first one.
+Failed to guess install tag for /usr/lib/systemd/system/tudor-host-launcher.service
+Failed to guess install tag for /usr/share/dbus-1/system.d/net.reactivated.TudorHostLauncher.conf
+Failed to guess install tag for /usr/share/dbus-1/system-services/net.reactivated.TudorHostLauncher.service
+Failed to guess install tag for /lib/udev/60-tudor-libfprint-tod.rules
+Failed to guess install tag for /usr/lib/systemd/system/tudor-host-launcher.service
+Failed to guess install tag for /usr/share/dbus-1/system.d/net.reactivated.TudorHostLauncher.conf
+Failed to guess install tag for /usr/share/dbus-1/system-services/net.reactivated.TudorHostLauncher.service
+Failed to guess install tag for /lib/udev/60-tudor-libfprint-tod.rules

@@ -1,0 +1,452 @@
+[
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_log.c.o -MF libtudor/libtudor.so.p/src_log.c.o.d -o libtudor/libtudor.so.p/src_log.c.o -c ../libtudor/src/log.c",
+    "file": "../libtudor/src/log.c",
+    "output": "libtudor/libtudor.so.p/src_log.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_wdf.c.o -MF libtudor/libtudor.so.p/src_wdf.c.o.d -o libtudor/libtudor.so.p/src_wdf.c.o -c ../libtudor/src/wdf.c",
+    "file": "../libtudor/src/wdf.c",
+    "output": "libtudor/libtudor.so.p/src_wdf.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_stub.c.o -MF libtudor/libtudor.so.p/src_stub.c.o.d -o libtudor/libtudor.so.p/src_stub.c.o -c ../libtudor/src/stub.c",
+    "file": "../libtudor/src/stub.c",
+    "output": "libtudor/libtudor.so.p/src_stub.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_loader.c.o -MF libtudor/libtudor.so.p/src_loader.c.o.d -o libtudor/libtudor.so.p/src_loader.c.o -c ../libtudor/src/loader.c",
+    "file": "../libtudor/src/loader.c",
+    "output": "libtudor/libtudor.so.p/src_loader.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_data_dir.c.o -MF libtudor/libtudor.so.p/src_pe_data_dir.c.o.d -o libtudor/libtudor.so.p/src_pe_data_dir.c.o -c ../libtudor/src/pe/data_dir.c",
+    "file": "../libtudor/src/pe/data_dir.c",
+    "output": "libtudor/libtudor.so.p/src_pe_data_dir.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_reloc.c.o -MF libtudor/libtudor.so.p/src_pe_reloc.c.o.d -o libtudor/libtudor.so.p/src_pe_reloc.c.o -c ../libtudor/src/pe/reloc.c",
+    "file": "../libtudor/src/pe/reloc.c",
+    "output": "libtudor/libtudor.so.p/src_pe_reloc.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_resource.c.o -MF libtudor/libtudor.so.p/src_pe_resource.c.o.d -o libtudor/libtudor.so.p/src_pe_resource.c.o -c ../libtudor/src/pe/resource.c",
+    "file": "../libtudor/src/pe/resource.c",
+    "output": "libtudor/libtudor.so.p/src_pe_resource.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_opt_header.c.o -MF libtudor/libtudor.so.p/src_pe_opt_header.c.o.d -o libtudor/libtudor.so.p/src_pe_opt_header.c.o -c ../libtudor/src/pe/opt_header.c",
+    "file": "../libtudor/src/pe/opt_header.c",
+    "output": "libtudor/libtudor.so.p/src_pe_opt_header.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_sect.c.o -MF libtudor/libtudor.so.p/src_pe_sect.c.o.d -o libtudor/libtudor.so.p/src_pe_sect.c.o -c ../libtudor/src/pe/sect.c",
+    "file": "../libtudor/src/pe/sect.c",
+    "output": "libtudor/libtudor.so.p/src_pe_sect.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_pe.c.o -MF libtudor/libtudor.so.p/src_pe_pe.c.o.d -o libtudor/libtudor.so.p/src_pe_pe.c.o -c ../libtudor/src/pe/pe.c",
+    "file": "../libtudor/src/pe/pe.c",
+    "output": "libtudor/libtudor.so.p/src_pe_pe.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_import.c.o -MF libtudor/libtudor.so.p/src_pe_import.c.o.d -o libtudor/libtudor.so.p/src_pe_import.c.o -c ../libtudor/src/pe/import.c",
+    "file": "../libtudor/src/pe/import.c",
+    "output": "libtudor/libtudor.so.p/src_pe_import.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_tls.c.o -MF libtudor/libtudor.so.p/src_pe_tls.c.o.d -o libtudor/libtudor.so.p/src_pe_tls.c.o -c ../libtudor/src/pe/tls.c",
+    "file": "../libtudor/src/pe/tls.c",
+    "output": "libtudor/libtudor.so.p/src_pe_tls.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_export.c.o -MF libtudor/libtudor.so.p/src_pe_export.c.o.d -o libtudor/libtudor.so.p/src_pe_export.c.o -c ../libtudor/src/pe/export.c",
+    "file": "../libtudor/src/pe/export.c",
+    "output": "libtudor/libtudor.so.p/src_pe_export.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_exception.c.o -MF libtudor/libtudor.so.p/src_pe_exception.c.o.d -o libtudor/libtudor.so.p/src_pe_exception.c.o -c ../libtudor/src/pe/exception.c",
+    "file": "../libtudor/src/pe/exception.c",
+    "output": "libtudor/libtudor.so.p/src_pe_exception.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_pe_coff_header.c.o -MF libtudor/libtudor.so.p/src_pe_coff_header.c.o.d -o libtudor/libtudor.so.p/src_pe_coff_header.c.o -c ../libtudor/src/pe/coff_header.c",
+    "file": "../libtudor/src/pe/coff_header.c",
+    "output": "libtudor/libtudor.so.p/src_pe_coff_header.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_string.c.o -MF libtudor/libtudor.so.p/src_winapi_string.c.o.d -o libtudor/libtudor.so.p/src_winapi_string.c.o -c ../libtudor/src/winapi/string.c",
+    "file": "../libtudor/src/winapi/string.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_string.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_list.c.o -MF libtudor/libtudor.so.p/src_winapi_list.c.o.d -o libtudor/libtudor.so.p/src_winapi_list.c.o -c ../libtudor/src/winapi/list.c",
+    "file": "../libtudor/src/winapi/list.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_list.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_thread.c.o -MF libtudor/libtudor.so.p/src_winapi_thread.c.o.d -o libtudor/libtudor.so.p/src_winapi_thread.c.o -c ../libtudor/src/winapi/thread.c",
+    "file": "../libtudor/src/winapi/thread.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_thread.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_handle.c.o -MF libtudor/libtudor.so.p/src_winapi_handle.c.o.d -o libtudor/libtudor.so.p/src_winapi_handle.c.o -c ../libtudor/src/winapi/handle.c",
+    "file": "../libtudor/src/winapi/handle.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_handle.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_error.c.o -MF libtudor/libtudor.so.p/src_winapi_error.c.o.d -o libtudor/libtudor.so.p/src_winapi_error.c.o -c ../libtudor/src/winapi/error.c",
+    "file": "../libtudor/src/winapi/error.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_error.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_api.c.o -MF libtudor/libtudor.so.p/src_winapi_api.c.o.d -o libtudor/libtudor.so.p/src_winapi_api.c.o -c ../libtudor/src/winapi/api.c",
+    "file": "../libtudor/src/winapi/api.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_api.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_module.c.o -MF libtudor/libtudor.so.p/src_winapi_module.c.o.d -o libtudor/libtudor.so.p/src_winapi_module.c.o -c ../libtudor/src/winapi/module.c",
+    "file": "../libtudor/src/winapi/module.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_module.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_log.c.o -MF libtudor/libtudor.so.p/src_winapi_log.c.o.d -o libtudor/libtudor.so.p/src_winapi_log.c.o -c ../libtudor/src/winapi/log.c",
+    "file": "../libtudor/src/winapi/log.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_log.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_proc.c.o -MF libtudor/libtudor.so.p/src_winapi_proc.c.o.d -o libtudor/libtudor.so.p/src_winapi_proc.c.o -c ../libtudor/src/winapi/proc.c",
+    "file": "../libtudor/src/winapi/proc.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_proc.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_time.c.o -MF libtudor/libtudor.so.p/src_winapi_time.c.o.d -o libtudor/libtudor.so.p/src_winapi_time.c.o -c ../libtudor/src/winapi/time.c",
+    "file": "../libtudor/src/winapi/time.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_time.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_reg.c.o -MF libtudor/libtudor.so.p/src_winapi_reg.c.o.d -o libtudor/libtudor.so.p/src_winapi_reg.c.o -c ../libtudor/src/winapi/reg.c",
+    "file": "../libtudor/src/winapi/reg.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_reg.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_sync.c.o -MF libtudor/libtudor.so.p/src_winapi_sync.c.o.d -o libtudor/libtudor.so.p/src_winapi_sync.c.o -c ../libtudor/src/winapi/sync.c",
+    "file": "../libtudor/src/winapi/sync.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_sync.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_heap.c.o -MF libtudor/libtudor.so.p/src_winapi_heap.c.o.d -o libtudor/libtudor.so.p/src_winapi_heap.c.o -c ../libtudor/src/winapi/heap.c",
+    "file": "../libtudor/src/winapi/heap.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_heap.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_pipe.c.o -MF libtudor/libtudor.so.p/src_winapi_pipe.c.o.d -o libtudor/libtudor.so.p/src_winapi_pipe.c.o -c ../libtudor/src/winapi/pipe.c",
+    "file": "../libtudor/src/winapi/pipe.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_pipe.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_prop.c.o -MF libtudor/libtudor.so.p/src_winapi_prop.c.o.d -o libtudor/libtudor.so.p/src_winapi_prop.c.o -c ../libtudor/src/winapi/prop.c",
+    "file": "../libtudor/src/winapi/prop.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_prop.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_suspend.c.o -MF libtudor/libtudor.so.p/src_winapi_suspend.c.o.d -o libtudor/libtudor.so.p/src_winapi_suspend.c.o -c ../libtudor/src/winapi/suspend.c",
+    "file": "../libtudor/src/winapi/suspend.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_suspend.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_io.c.o -MF libtudor/libtudor.so.p/src_winapi_io.c.o.d -o libtudor/libtudor.so.p/src_winapi_io.c.o -c ../libtudor/src/winapi/io.c",
+    "file": "../libtudor/src/winapi/io.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_io.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_system.c.o -MF libtudor/libtudor.so.p/src_winapi_system.c.o.d -o libtudor/libtudor.so.p/src_winapi_system.c.o -c ../libtudor/src/winapi/system.c",
+    "file": "../libtudor/src/winapi/system.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_system.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_crypt_rsa_aes.c.o -MF libtudor/libtudor.so.p/src_winapi_crypt_rsa_aes.c.o.d -o libtudor/libtudor.so.p/src_winapi_crypt_rsa_aes.c.o -c ../libtudor/src/winapi/crypt/rsa_aes.c",
+    "file": "../libtudor/src/winapi/crypt/rsa_aes.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_crypt_rsa_aes.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_crypt_evp_digest.c.o -MF libtudor/libtudor.so.p/src_winapi_crypt_evp_digest.c.o.d -o libtudor/libtudor.so.p/src_winapi_crypt_evp_digest.c.o -c ../libtudor/src/winapi/crypt/evp_digest.c",
+    "file": "../libtudor/src/winapi/crypt/evp_digest.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_crypt_evp_digest.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_crypt_hmac.c.o -MF libtudor/libtudor.so.p/src_winapi_crypt_hmac.c.o.d -o libtudor/libtudor.so.p/src_winapi_crypt_hmac.c.o -c ../libtudor/src/winapi/crypt/hmac.c",
+    "file": "../libtudor/src/winapi/crypt/hmac.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_crypt_hmac.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_crypt_crypt.c.o -MF libtudor/libtudor.so.p/src_winapi_crypt_crypt.c.o.d -o libtudor/libtudor.so.p/src_winapi_crypt_crypt.c.o -c ../libtudor/src/winapi/crypt/crypt.c",
+    "file": "../libtudor/src/winapi/crypt/crypt.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_crypt_crypt.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_bcrypt_bcrypt.c.o -MF libtudor/libtudor.so.p/src_winapi_bcrypt_bcrypt.c.o.d -o libtudor/libtudor.so.p/src_winapi_bcrypt_bcrypt.c.o -c ../libtudor/src/winapi/bcrypt/bcrypt.c",
+    "file": "../libtudor/src/winapi/bcrypt/bcrypt.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_bcrypt_bcrypt.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_bcrypt_ecc.c.o -MF libtudor/libtudor.so.p/src_winapi_bcrypt_ecc.c.o.d -o libtudor/libtudor.so.p/src_winapi_bcrypt_ecc.c.o -c ../libtudor/src/winapi/bcrypt/ecc.c",
+    "file": "../libtudor/src/winapi/bcrypt/ecc.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_bcrypt_ecc.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_bcrypt_aes.c.o -MF libtudor/libtudor.so.p/src_winapi_bcrypt_aes.c.o.d -o libtudor/libtudor.so.p/src_winapi_bcrypt_aes.c.o -c ../libtudor/src/winapi/bcrypt/aes.c",
+    "file": "../libtudor/src/winapi/bcrypt/aes.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_bcrypt_aes.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_string.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_string.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_string.c.o -c ../libtudor/src/winapi/wdf/string.c",
+    "file": "../libtudor/src/winapi/wdf/string.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_string.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_driver.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_driver.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_driver.c.o -c ../libtudor/src/winapi/wdf/driver.c",
+    "file": "../libtudor/src/winapi/wdf/driver.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_driver.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_request.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_request.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_request.c.o -c ../libtudor/src/winapi/wdf/request.c",
+    "file": "../libtudor/src/winapi/wdf/request.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_request.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_mem.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_mem.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_mem.c.o -c ../libtudor/src/winapi/wdf/mem.c",
+    "file": "../libtudor/src/winapi/wdf/mem.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_mem.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_device.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_device.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_device.c.o -c ../libtudor/src/winapi/wdf/device.c",
+    "file": "../libtudor/src/winapi/wdf/device.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_device.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_object.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_object.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_object.c.o -c ../libtudor/src/winapi/wdf/object.c",
+    "file": "../libtudor/src/winapi/wdf/object.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_object.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_log.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_log.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_log.c.o -c ../libtudor/src/winapi/wdf/log.c",
+    "file": "../libtudor/src/winapi/wdf/log.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_log.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_file.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_file.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_file.c.o -c ../libtudor/src/winapi/wdf/file.c",
+    "file": "../libtudor/src/winapi/wdf/file.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_file.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_evtqueue.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_evtqueue.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_evtqueue.c.o -c ../libtudor/src/winapi/wdf/evtqueue.c",
+    "file": "../libtudor/src/winapi/wdf/evtqueue.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_evtqueue.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_queue.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_queue.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_queue.c.o -c ../libtudor/src/winapi/wdf/queue.c",
+    "file": "../libtudor/src/winapi/wdf/queue.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_queue.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_reg.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_reg.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_reg.c.o -c ../libtudor/src/winapi/wdf/reg.c",
+    "file": "../libtudor/src/winapi/wdf/reg.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_reg.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_winapi_wdf_usb.c.o -MF libtudor/libtudor.so.p/src_winapi_wdf_usb.c.o.d -o libtudor/libtudor.so.p/src_winapi_wdf_usb.c.o -c ../libtudor/src/winapi/wdf/usb.c",
+    "file": "../libtudor/src/winapi/wdf/usb.c",
+    "output": "libtudor/libtudor.so.p/src_winapi_wdf_usb.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_tudor_async.c.o -MF libtudor/libtudor.so.p/src_tudor_async.c.o.d -o libtudor/libtudor.so.p/src_tudor_async.c.o -c ../libtudor/src/tudor/async.c",
+    "file": "../libtudor/src/tudor/async.c",
+    "output": "libtudor/libtudor.so.p/src_tudor_async.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_tudor_driver.c.o -MF libtudor/libtudor.so.p/src_tudor_driver.c.o.d -o libtudor/libtudor.so.p/src_tudor_driver.c.o -c ../libtudor/src/tudor/driver.c",
+    "file": "../libtudor/src/tudor/driver.c",
+    "output": "libtudor/libtudor.so.p/src_tudor_driver.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_tudor_device.c.o -MF libtudor/libtudor.so.p/src_tudor_device.c.o.d -o libtudor/libtudor.so.p/src_tudor_device.c.o -c ../libtudor/src/tudor/device.c",
+    "file": "../libtudor/src/tudor/device.c",
+    "output": "libtudor/libtudor.so.p/src_tudor_device.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_tudor_storage.c.o -MF libtudor/libtudor.so.p/src_tudor_storage.c.o.d -o libtudor/libtudor.so.p/src_tudor_storage.c.o -c ../libtudor/src/tudor/storage.c",
+    "file": "../libtudor/src/tudor/storage.c",
+    "output": "libtudor/libtudor.so.p/src_tudor_storage.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibtudor/libtudor.so.p -Ilibtudor -I../libtudor -I../libtudor/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -MD -MQ libtudor/libtudor.so.p/src_tudor_reg.c.o -MF libtudor/libtudor.so.p/src_tudor_reg.c.o.d -o libtudor/libtudor.so.p/src_tudor_reg.c.o -c ../libtudor/src/tudor/reg.c",
+    "file": "../libtudor/src/tudor/reg.c",
+    "output": "libtudor/libtudor.so.p/src_tudor_reg.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Icli/tudor_cli.p -Icli -I../cli -I../cli/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -MD -MQ cli/tudor_cli.p/src_main.c.o -MF cli/tudor_cli.p/src_main.c.o.d -o cli/tudor_cli.p/src_main.c.o -c ../cli/src/main.c",
+    "file": "../cli/src/main.c",
+    "output": "cli/tudor_cli.p/src_main.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Icli/tudor_cli.p -Icli -I../cli -I../cli/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -MD -MQ cli/tudor_cli.p/src_cli.c.o -MF cli/tudor_cli.p/src_cli.c.o.d -o cli/tudor_cli.p/src_cli.c.o -c ../cli/src/cli.c",
+    "file": "../cli/src/cli.c",
+    "output": "cli/tudor_cli.p/src_cli.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Icli/tudor_cli.p -Icli -I../cli -I../cli/src -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -MD -MQ cli/tudor_cli.p/src_datastore.c.o -MF cli/tudor_cli.p/src_datastore.c.o.d -o cli/tudor_cli.p/src_datastore.c.o -c ../cli/src/datastore.c",
+    "file": "../cli/src/datastore.c",
+    "output": "cli/tudor_cli.p/src_datastore.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host/tudor_host.p -Itudor-host -I../tudor-host -I../tudor-host/src -I../tudor-host/inc -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -DUNMOUNTFS -MD -MQ tudor-host/tudor_host.p/src_main.c.o -MF tudor-host/tudor_host.p/src_main.c.o.d -o tudor-host/tudor_host.p/src_main.c.o -c ../tudor-host/src/main.c",
+    "file": "../tudor-host/src/main.c",
+    "output": "tudor-host/tudor_host.p/src_main.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host/tudor_host.p -Itudor-host -I../tudor-host -I../tudor-host/src -I../tudor-host/inc -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -DUNMOUNTFS -MD -MQ tudor-host/tudor_host.p/src_sandbox.c.o -MF tudor-host/tudor_host.p/src_sandbox.c.o.d -o tudor-host/tudor_host.p/src_sandbox.c.o -c ../tudor-host/src/sandbox.c",
+    "file": "../tudor-host/src/sandbox.c",
+    "output": "tudor-host/tudor_host.p/src_sandbox.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host/tudor_host.p -Itudor-host -I../tudor-host -I../tudor-host/src -I../tudor-host/inc -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -DUNMOUNTFS -MD -MQ tudor-host/tudor_host.p/src_ipc.c.o -MF tudor-host/tudor_host.p/src_ipc.c.o.d -o tudor-host/tudor_host.p/src_ipc.c.o -c ../tudor-host/src/ipc.c",
+    "file": "../tudor-host/src/ipc.c",
+    "output": "tudor-host/tudor_host.p/src_ipc.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host/tudor_host.p -Itudor-host -I../tudor-host -I../tudor-host/src -I../tudor-host/inc -I../libtudor/inc -I/usr/include/libusb-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -DUNMOUNTFS -MD -MQ tudor-host/tudor_host.p/src_handler.c.o -MF tudor-host/tudor_host.p/src_handler.c.o.d -o tudor-host/tudor_host.p/src_handler.c.o -c ../tudor-host/src/handler.c",
+    "file": "../tudor-host/src/handler.c",
+    "output": "tudor-host/tudor_host.p/src_handler.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host-launcher/tudor_host_launcher.p -Itudor-host-launcher -I../tudor-host-launcher -I../tudor-host-launcher/inc -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ tudor-host-launcher/tudor_host_launcher.p/src_main.c.o -MF tudor-host-launcher/tudor_host_launcher.p/src_main.c.o.d -o tudor-host-launcher/tudor_host_launcher.p/src_main.c.o -c ../tudor-host-launcher/src/main.c",
+    "file": "../tudor-host-launcher/src/main.c",
+    "output": "tudor-host-launcher/tudor_host_launcher.p/src_main.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host-launcher/tudor_host_launcher.p -Itudor-host-launcher -I../tudor-host-launcher -I../tudor-host-launcher/inc -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ tudor-host-launcher/tudor_host_launcher.p/src_launch.c.o -MF tudor-host-launcher/tudor_host_launcher.p/src_launch.c.o.d -o tudor-host-launcher/tudor_host_launcher.p/src_launch.c.o -c ../tudor-host-launcher/src/launch.c",
+    "file": "../tudor-host-launcher/src/launch.c",
+    "output": "tudor-host-launcher/tudor_host_launcher.p/src_launch.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Itudor-host-launcher/tudor_host_launcher.p -Itudor-host-launcher -I../tudor-host-launcher -I../tudor-host-launcher/inc -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ tudor-host-launcher/tudor_host_launcher.p/src_pdata.c.o -MF tudor-host-launcher/tudor_host_launcher.p/src_pdata.c.o.d -o tudor-host-launcher/tudor_host_launcher.p/src_pdata.c.o -c ../tudor-host-launcher/src/pdata.c",
+    "file": "../tudor-host-launcher/src/pdata.c",
+    "output": "tudor-host-launcher/tudor_host_launcher.p/src_pdata.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_device.c.o -MF libfprint-tod/libtudor_tod.so.p/src_device.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_device.c.o -c ../libfprint-tod/src/device.c",
+    "file": "../libfprint-tod/src/device.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_device.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_data.c.o -MF libfprint-tod/libtudor_tod.so.p/src_data.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_data.c.o -c ../libfprint-tod/src/data.c",
+    "file": "../libfprint-tod/src/data.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_data.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_ipc.c.o -MF libfprint-tod/libtudor_tod.so.p/src_ipc.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_ipc.c.o -c ../libfprint-tod/src/ipc.c",
+    "file": "../libfprint-tod/src/ipc.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_ipc.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_open.c.o -MF libfprint-tod/libtudor_tod.so.p/src_open.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_open.c.o -c ../libfprint-tod/src/open.c",
+    "file": "../libfprint-tod/src/open.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_open.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_suspend.c.o -MF libfprint-tod/libtudor_tod.so.p/src_suspend.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_suspend.c.o -c ../libfprint-tod/src/suspend.c",
+    "file": "../libfprint-tod/src/suspend.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_suspend.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_enroll.c.o -MF libfprint-tod/libtudor_tod.so.p/src_enroll.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_enroll.c.o -c ../libfprint-tod/src/enroll.c",
+    "file": "../libfprint-tod/src/enroll.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_enroll.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_verify.c.o -MF libfprint-tod/libtudor_tod.so.p/src_verify.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_verify.c.o -c ../libfprint-tod/src/verify.c",
+    "file": "../libfprint-tod/src/verify.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_verify.c.o"
+  },
+  {
+    "directory": "/home/amy/synaTudor/build",
+    "command": "ccache cc -Ilibfprint-tod/libtudor_tod.so.p -Ilibfprint-tod -I../libfprint-tod -I../libtudor/inc -I../tudor-host/inc -I../tudor-host-launcher/inc -I/usr/include/libfprint-2/tod-1 -I/usr/include/gusb-1 -I/usr/include/libusb-1.0 -I/usr/include/pixman-1 -I/usr/include/nss -I/usr/include/nspr -I/usr/include/gudev-1.0 -I/usr/include/libfprint-2 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -D_GNU_SOURCE -Wno-missing-braces -MD -MQ libfprint-tod/libtudor_tod.so.p/src_identify.c.o -MF libfprint-tod/libtudor_tod.so.p/src_identify.c.o.d -o libfprint-tod/libtudor_tod.so.p/src_identify.c.o -c ../libfprint-tod/src/identify.c",
+    "file": "../libfprint-tod/src/identify.c",
+    "output": "libfprint-tod/libtudor_tod.so.p/src_identify.c.o"
+  }
+]
